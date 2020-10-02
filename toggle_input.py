@@ -19,9 +19,7 @@ def create_copy(jupyter_slides_name):
 
 def enable_input_toggle(jupyter_slides_path):
     """Embeds javascript to enable input cells show/hide toggling and saves the copy.
-    Note: the jupyter slides and the script should be in the same folder.
-    TODO1: check if its a jupyter slides html file before proceeding.
-    TODO2: check major and minor versions to decide class names (if changed)"""
+    Note: the jupyter slides and the script should be in the same folder."""
 
     html = open(jupyter_slides_path, 'r')
     soup = BeautifulSoup(html, features="lxml")
