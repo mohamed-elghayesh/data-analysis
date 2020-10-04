@@ -3,4 +3,5 @@
 
 $ jupyter nbconvert "file.ipynb" --to slides 
 
+## then
 $ ./toggle_input.py "jupyter-slide-file"
